@@ -1,0 +1,73 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+}
+
+.logo {
+  margin: 70px auto 10px auto;
+  width: 50px!important;
+  height: 50px!important;
+  object-fit: contain;
+  display: block;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.watchListHeader {
+  background-color: #2062B8!important;
+  color: white!important;
+  font-style: italic!important;
+}
+
+.watchList {
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
+}
+
+.watchListNumericColumn {
+  text-align: right;
+  width:8em;
+}
+
+/* stock list Remove column */
+.watchListRemoveColumn {
+  text-align: center;
+}
+
+.addPanel {
+  margin: 10px 0px 15px 0px;
+}
